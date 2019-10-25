@@ -17,7 +17,7 @@ namespace TestDIFinOct2019
             builder.Services.AddHttpClient("PostMessageAPI", x =>
             {
  
-                x.BaseAddress = new Uri("http://requestbin.net/r/1k2ktr21");
+                x.BaseAddress = new Uri("http://requestbin.net/r/1lowbys1");
                 x.Timeout = TimeSpan.FromMilliseconds(65536);
             });
             builder.Services.AddSingleton<ParserApiClient>();
